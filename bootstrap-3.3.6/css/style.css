@@ -1,0 +1,302 @@
+body {
+  background-color: #313131; }
+  body .container {
+    max-width: 960px;
+    margin: auto;
+    padding-left: 0px;
+    padding-right: 0px; }
+    body .container .body {
+      background-color: white; }
+      body .container .body header {
+        border-top: #a7c353 solid 5px; }
+        body .container .body header .vienduoi {
+          border-bottom: #a7c353 solid 1px;
+          margin-left: 20px;
+          margin-right: 20px;
+          padding-right: 0px; }
+        body .container .body header .name {
+          float: left;
+          min-width: 250px;
+          height: 96px; }
+          body .container .body header .name .p1 {
+            font-family: Georgia;
+            color: #8C8C8C;
+            margin-top: 35px;
+            font-size: 20pt;
+            line-height: 0.8; }
+            body .container .body header .name .p1 span {
+              font-size: 27pt; }
+          body .container .body header .name .p2 {
+            font-family: Georgia;
+            color: #999999;
+            line-height: 0.1;
+            font-size: 10pt; }
+        body .container .body header .example {
+          height: 96px;
+          margin-right: 0px; }
+          body .container .body header .example .collapse, body .container .body header .example .navbar-collapse {
+            float: left; }
+            body .container .body header .example .collapse ul li a, body .container .body header .example .navbar-collapse ul li a {
+              height: 96px;
+              padding-top: 50px;
+              font-family: Georgia;
+              color: #999999; }
+            body .container .body header .example .collapse ul li a.active, body .container .body header .example .navbar-collapse ul li a.active {
+              background-color: #a7c353;
+              color: white; }
+            body .container .body header .example .collapse ul a:hover, body .container .body header .example .navbar-collapse ul a:hover {
+              background-color: #a7c353;
+              color: white; }
+      body .container .body .shout {
+        clear: both;
+        background-color: white;
+        font-family: Georgia;
+        text-align: center;
+        font-size: 17pt;
+        color: #7f7f7f;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10%;
+        margin-right: 10%; }
+      body .container .body .article1 {
+        background-color: white;
+        width: auto;
+        margin-bottom: 70px; }
+        body .container .body .article1 .section2 {
+          margin: 0px 20px 0px 20px; }
+          body .container .body .article1 .section2 #myCarousel .carousel-indicators li {
+            border: 3px solid #a7c353;
+            width: 13px;
+            height: 13px;
+            background-color: #a7c353; }
+          body .container .body .article1 .section2 #myCarousel .carousel-indicators .active {
+            background-color: white;
+            border: 3px solid #a7c353; }
+          body .container .body .article1 .section2 #myCarousel .carousel-control {
+            width: 52px;
+            border-radius: 100px;
+            margin: auto;
+            margin-left: 10px;
+            margin-right: 10px; }
+          body .container .body .article1 .section2 #myCarousel .carousel-indicators {
+            margin-bottom: -6%;
+            list-style-type: disc; }
+          body .container .body .article1 .section2 #myCarousel .carousel-caption {
+            position: absolute;
+            right: 65px;
+            left: 50%;
+            bottom: 0px;
+            max-width: 50%;
+            text-shadow: none;
+            padding-bottom: 23px; }
+            body .container .body .article1 .section2 #myCarousel .carousel-caption h3 {
+              background-color: #a7c353;
+              font-size: 22px;
+              color: #fff;
+              padding-top: 11px;
+              padding-bottom: 7px;
+              margin-bottom: 10px;
+              margin-top: 0; }
+            body .container .body .article1 .section2 #myCarousel .carousel-caption p {
+              background-color: #fff;
+              color: #999999;
+              padding-top: 14px;
+              padding-bottom: 9px;
+              margin: 0;
+              text-align: left;
+              padding-left: 10px; }
+      body .container .body .article2 {
+        background-color: white;
+        max-width: 960px;
+        height: auto;
+        padding: 0px 20px 0px 20px; }
+        body .container .body .article2 .header {
+          font-family: Georgia;
+          font-size: 18pt;
+          color: #7f7f7f; }
+        body .container .body .article2 #services {
+          margin-bottom: 30px; }
+        body .container .body .article2 .content {
+          max-width: 270px;
+          margin-top: 25px; }
+          body .container .body .article2 .content .ct {
+            margin-top: 20px; }
+          body .container .body .article2 .content .div .div1 {
+            margin-left: 84px; }
+          body .container .body .article2 .content .aaa {
+            margin-top: 20px; }
+          body .container .body .article2 .content .content1 {
+            font-family: Georgia;
+            color: #999999;
+            font-size: 10pt; }
+          body .container .body .article2 .content .content11 {
+            font-family: Georgia;
+            color: #7f7f7f;
+            margin-bottom: 5px; }
+          body .container .body .article2 .content .img {
+            float: left;
+            min-width: 64px;
+            margin-right: 20px; }
+          body .container .body .article2 .content .linkread {
+            color: #a7c353;
+            float: right;
+            font-size: 13px; }
+          body .container .body .article2 .content .div2 {
+            clear: both;
+            margin-top: 10px; }
+          body .container .body .article2 .content .test {
+            min-height: 44px;
+            margin-top: -10px; }
+            body .container .body .article2 .content .test .img1 {
+              float: left;
+              margin-right: 15px; }
+            body .container .body .article2 .content .test .test1 {
+              float: left;
+              margin-top: 10px;
+              font-family: Georgia;
+              font-size: 13pt;
+              color: #7f7f7f; }
+    body .container footer {
+      margin-top: 30px; }
+      body .container footer #company {
+        padding-bottom: 20px; }
+        body .container footer #company a {
+          font-family: Georgia;
+          color: #a7c353; }
+      body .container footer .ft {
+        color: #c3c3c3;
+        font-family: Georgia;
+        font-size: 13pt;
+        border-bottom: 2px solid #3a3a3a;
+        margin-bottom: 18px;
+        padding-bottom: 16px; }
+      body .container footer p {
+        color: #999999;
+        font-family: Georgia; }
+      body .container footer #social {
+        margin-bottom: 20px; }
+        body .container footer #social .ft {
+          padding-bottom: 16px;
+          border-bottom: 2px solid #383838;
+          margin-bottom: 18px; }
+        body .container footer #social div {
+          padding-bottom: 8px;
+          border-bottom: 2px solid #383838;
+          margin-bottom: 14px; }
+          body .container footer #social div a {
+            font-family: Georgia;
+            color: #a7c353; }
+        body .container footer #social i {
+          background-color: #383838;
+          border-radius: 100%;
+          margin-right: 11px;
+          color: white;
+          width: 30px;
+          height: 30px;
+          padding-left: 9px;
+          padding-top: 9px; }
+          body .container footer #social i .fa-linkedin, body .container footer #social i .fa-pinterest, body .container footer #social i .fa-rss, body .container footer #social i .fa-twitter {
+            padding: 9px 10px; }
+      body .container footer #blog {
+        margin-bottom: 20px; }
+        body .container footer #blog .linkread {
+          color: #a7c353;
+          float: right; }
+        body .container footer #blog div {
+          clear: both; }
+          body .container footer #blog div .p1 {
+            color: #999999;
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-family: Georgia; }
+          body .container footer #blog div .p2 {
+            margin-bottom: 5px;
+            font-family: Georgia;
+            margin-top: 5px; }
+          body .container footer #blog div .p3 {
+            margin-bottom: 10px;
+            font-family: Georgia; }
+      body .container footer #contact {
+        margin-bottom: 20px; }
+        body .container footer #contact .form-control {
+          background-color: #383838;
+          border: none;
+          color: #fff; }
+        body .container footer #contact .btn:hover {
+          background-color: #8b9e2c; }
+      body .container footer #copyright {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #999;
+        font-size: 12px; }
+      body .container footer .border-top-copyright {
+        border-top: 2px solid #3a3a3a; }
+      body .container footer .btn {
+        background-color: #a7c353;
+        color: #313131;
+        border: none;
+        text-transform: uppercase;
+        text-shadow: none;
+        font-family: Georgia; }
+      body .container footer .btn:hover {
+        background-color: #8b9e2c; }
+      body .container footer .btn-default {
+        background-image: none; }
+
+@media only screen and (max-width: 737px) {
+  body .container .body header .example .collapse ul li a, body .container .body header .example .navbar-collapse ul li a {
+    height: 50px;
+    margin-top: 0px;
+    font-family: Georgia;
+    color: #999999;
+    margin-bottom: 0px;
+    padding-top: 10px; }
+
+  .body .shout p {
+    margin-top: 30px; }
+
+  body .container .body .article2 #services {
+    float: left; }
+
+  .col-xs-12 p, .col-xs-12 div.content {
+    margin: auto; }
+
+  body .container .body .article2 .header {
+    max-width: 270px; }
+
+  #about {
+    margin-bottom: 15px; }
+
+  .example .collapse, .example .navbar-collapse {
+    width: 100%; }
+    .example .collapse ul li, .example .navbar-collapse ul li {
+      height: 50px; }
+
+  .carousel-indicators {
+    bottom: -10%; }
+
+  footer {
+    margin-left: 20px; }
+    footer .row {
+      margin: auto; }
+
+  .article1 {
+    height: auto;
+    margin-bottom: 20px; }
+
+  #clients {
+    padding-bottom: 50px; } }
+@media only screen and (max-width: 1025px) {
+  .shout p {
+    margin-top: 130px; }
+
+  #services {
+    float: left; }
+
+  #clients {
+    clear: both; }
+
+  footer div.row div#blog {
+    clear: both; } }
+
+/*# sourceMappingURL=style.css.map */
